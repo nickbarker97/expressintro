@@ -9,6 +9,10 @@ app.get('/about', (req, res)=>{
     res.send('This is the About page')
 });
 
+app.get('/contact', (req, res)=>{
+    res.send('This is the contact page')
+});
+
 
 
 //Listening for request on port 3000
